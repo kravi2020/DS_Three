@@ -1,6 +1,6 @@
 ﻿CREATE PROCEDURE [dbo].[usp_get_general]
  
 AS
- SELECT * FROM DBO.General
+ SELECT Name, Id FROM dbo.General
 
 RETURN 0
