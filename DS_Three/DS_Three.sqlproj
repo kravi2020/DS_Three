@@ -63,5 +63,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="DS_Three.publish.xml" />
+    <None Include="DS_Three.nuspec" />
+    <None Include="Deploy.ps1">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 </Project>
