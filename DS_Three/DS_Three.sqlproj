@@ -60,4 +60,7 @@
   <ItemGroup>
     <Build Include="General.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="DS_Three.publish.xml" />
+  </ItemGroup>
 </Project>
