@@ -58,11 +58,17 @@
     <Folder Include="Properties" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="General.sql" />
-    <Build Include="usp_get_general.sql" />
+    <Build Include="General.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Build>
+    <Build Include="usp_get_general.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Build>
   </ItemGroup>
   <ItemGroup>
-    <None Include="DS_Three.publish.xml" />
+    <None Include="DS_Three.publish.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="DS_Three.nuspec" />
     <None Include="Deploy.ps1">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
