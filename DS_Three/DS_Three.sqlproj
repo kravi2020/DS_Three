@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="General.sql" />
+    <Build Include="usp_get_general.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="DS_Three.publish.xml" />
